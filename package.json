@@ -1,0 +1,17 @@
+{
+  "name": "heybot",
+  "version": "1.0.0",
+  "description": "A discord bot for learning purposes",
+  "main": "main.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "keywords": [
+    "discord.js"
+  ],
+  "author": "jot",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
