@@ -23,4 +23,15 @@ client.on('messageCreate', msg => {
   }
 })
 
+client.on('interactionCreate', async interaction => {
+  if (!interaction.isChatInputCommand()) {
+    return
+  }
+  if (interaction.commandName === 'pong') {
+    await interaction.reply('ping')
+  }
+  if (interaction.commandName === 'jogos-finalizados') {
+  }
+})
+
 client.login(process.env.DISCORD_TOKEN)
